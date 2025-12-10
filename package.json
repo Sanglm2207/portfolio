@@ -23,7 +23,7 @@
     "@next/font": "^13.0.2",
     "@sendgrid/mail": "^7.4.6",
     "clsx": "^1.2.1",
-    "formik": "^2.2.9",
+    "formik": "^2.4.9",
     "next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

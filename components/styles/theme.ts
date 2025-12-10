@@ -1,4 +1,4 @@
-import { Roboto } from '@next/font/google';
+import { Roboto } from 'next/font/google';
 import { createTheme, responsiveFontSizes } from '@mui/material';
 import { cyan, pink } from '@mui/material/colors';
 
@@ -14,8 +14,8 @@ const theme = responsiveFontSizes(
   createTheme({
     palette: {
       mode: 'dark',
-      primary: cyan,
-      secondary: pink,
+      primary: pink,
+      secondary: cyan,
       error: {
         main: '#ff6358',
       },

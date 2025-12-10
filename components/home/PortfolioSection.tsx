@@ -78,8 +78,9 @@ export default function Portfolio({
                     <Image
                       alt={project.imgAlt}
                       blurDataURL={getDataUrlWithShimmerEffect(600, 370)}
-                      height={370}
+                      height={430}
                       layout="responsive"
+                      objectFit= 'cover'
                       placeholder="blur"
                       src={`/${project.imgPath}`}
                       width={600}

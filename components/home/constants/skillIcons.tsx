@@ -1,96 +1,172 @@
+import { FaJava } from 'react-icons/fa'; // Icon Java chuẩn (cốc cà phê)
 import {
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiTypescript,
   SiGit,
-  SiNodedotjs,
   SiReact,
   SiRedux,
-  SiMongodb,
-  SiJest,
-  SiMui,
   SiNextdotjs,
+  SiNodedotjs,
+  SiSpringboot,
+  SiHibernate,
   SiPostgresql,
+  SiMongodb,
+  SiMysql,
+  SiOracle,
+  SiRedis,
   SiFirebase,
-  SiTailwindcss,
-  SiTypescript,
+  SiApachekafka,
+  SiRabbitmq,
+  SiDocker,
+  SiJenkins,
+  SiNginx,
   SiAmazonwebservices,
   SiGooglecloud,
   SiTerraform,
+  SiJest,
+  SiTailwindcss,
+  SiMui,
+  SiSwagger,
+  SiJira,
 } from 'react-icons/si';
 
 const skillLogos = [
+  // --- Languages ---
   {
-    icon: <SiHtml5 title="Html5" />,
-    label: 'Html5',
+    icon: <FaJava color="#ED8B00" title="Java" />,
+    label: 'Java',
   },
   {
-    icon: <SiCss3 title="CSS3" />,
-    label: 'CSS3',
-  },
-  {
-    icon: <SiJavascript title="JavaScript" />,
+    icon: <SiJavascript color="#F7DF1E" title="JavaScript" />,
     label: 'JavaScript',
   },
   {
-    icon: <SiTypescript title="TypeScript" />,
+    icon: <SiTypescript color="#3178C6" title="TypeScript" />,
     label: 'TypeScript',
   },
   {
-    icon: <SiGit title="Git" />,
-    label: 'Git',
+    icon: <SiHtml5 color="#E34F26" title="Html5" />,
+    label: 'Html5',
   },
   {
-    icon: <SiReact title="React" />,
-    label: 'React',
+    icon: <SiCss3 color="#1572B6" title="CSS3" />,
+    label: 'CSS3',
+  },
+
+  // --- Backend & Frameworks ---
+  {
+    icon: <SiSpringboot color="#6DB33F" title="Spring Boot" />,
+    label: 'Spring Boot',
   },
   {
-    icon: <SiRedux title="Redux" />,
-    label: 'Redux',
+    icon: <SiHibernate color="#59666C" title="Hibernate" />,
+    label: 'Hibernate',
   },
   {
-    icon: <SiNextdotjs title="NextJS" />,
+    icon: <SiNodedotjs color="#339933" title="Node.js" />,
+    label: 'Node.js',
+  },
+  {
+    icon: <SiNextdotjs color="#000000" title="NextJS" />, // Hoặc #FFFFFF nếu nền tối
     label: 'NextJS',
   },
   {
-    icon: <SiNodedotjs title="Node" />,
-    label: 'Node',
+    icon: <SiReact color="#61DAFB" title="React" />,
+    label: 'React',
   },
   {
-    icon: <SiPostgresql title="PostgreSQL" />,
-    label: 'PostgreSQL',
+    icon: <SiRedux color="#764ABC" title="Redux" />,
+    label: 'Redux',
   },
   {
-    icon: <SiMongodb title="MongoDB" />,
-    label: 'MongoDB',
-  },
-  {
-    icon: <SiFirebase title="Firebase" />,
-    label: 'Firebase',
-  },
-  {
-    icon: <SiJest title="Jest" />,
-    label: 'Jest',
-  },
-  {
-    icon: <SiTailwindcss title="Tailwind CSS" />,
+    icon: <SiTailwindcss color="#06B6D4" title="Tailwind CSS" />,
     label: 'Tailwind CSS',
   },
   {
-    icon: <SiMui title="Material UI" />,
+    icon: <SiMui color="#007FFF" title="Material UI" />,
     label: 'Material UI',
   },
   {
-    icon: <SiTerraform title="Terraform" />,
+    icon: <SiJest color="#C21325" title="Jest" />,
+    label: 'Jest',
+  },
+
+  // --- Databases ---
+  {
+    icon: <SiOracle color="#F80000" title="Oracle" />,
+    label: 'Oracle',
+  },
+  {
+    icon: <SiMysql color="#4479A1" title="MySQL" />,
+    label: 'MySQL',
+  },
+  {
+    icon: <SiPostgresql color="#4169E1" title="PostgreSQL" />,
+    label: 'PostgreSQL',
+  },
+  {
+    icon: <SiMongodb color="#47A248" title="MongoDB" />,
+    label: 'MongoDB',
+  },
+  {
+    icon: <SiRedis color="#DC382D" title="Redis" />,
+    label: 'Redis',
+  },
+  {
+    icon: <SiFirebase color="#FFCA28" title="Firebase" />,
+    label: 'Firebase',
+  },
+
+  // --- Messaging ---
+  {
+    icon: <SiApachekafka color="#231F20" title="Kafka" />,
+    label: 'Kafka',
+  },
+  {
+    icon: <SiRabbitmq color="#FF6600" title="RabbitMQ" />,
+    label: 'RabbitMQ',
+  },
+
+  // --- DevOps & Cloud ---
+  {
+    icon: <SiAmazonwebservices color="#FF9900" title="AWS" />,
+    label: 'AWS',
+  },
+  {
+    icon: <SiDocker color="#2496ED" title="Docker" />,
+    label: 'Docker',
+  },
+  {
+    icon: <SiJenkins color="#D24939" title="Jenkins" />,
+    label: 'Jenkins',
+  },
+  {
+    icon: <SiNginx color="#009639" title="Nginx" />,
+    label: 'Nginx',
+  },
+  {
+    icon: <SiGooglecloud color="#4285F4" title="Google Cloud" />,
+    label: 'Google Cloud',
+  },
+  {
+    icon: <SiTerraform color="#7B42BC" title="Terraform" />,
     label: 'Terraform',
   },
+
+  // --- Tools ---
   {
-    icon: <SiAmazonwebservices title="Amazon Web Services" />,
-    label: 'Amazon Web Services',
+    icon: <SiGit color="#F05032" title="Git" />,
+    label: 'Git',
   },
   {
-    icon: <SiGooglecloud title="Google Cloud" />,
-    label: 'Google Cloud',
+    icon: <SiSwagger color="#85EA2D" title="Swagger" />,
+    label: 'Swagger',
+  },
+  {
+    icon: <SiJira color="#0052CC" title="Jira" />,
+    label: 'Jira',
   },
 ];
 

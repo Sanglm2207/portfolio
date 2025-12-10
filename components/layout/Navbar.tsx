@@ -50,27 +50,27 @@ export default function ElevateAppBar() {
   const menuItems = [
     {
       link: '/#',
-      name: `${router.locale === 'en' ? 'HOME' : 'INICIO'}`,
+      name: `${router.locale === 'en' ? 'HOME' : 'TRANG CHỦ'}`,
       icon: <HomeIcon />,
     },
     {
       link: '/#about',
-      name: `${router.locale === 'en' ? 'ABOUT' : 'ACERCA DE MI'}`,
+      name: `${router.locale === 'en' ? 'ABOUT' : 'GIỚI THIỆU'}`,
       icon: <PermIdentityIcon />,
     },
     {
       link: '/#portfolio',
-      name: `${router.locale === 'en' ? 'PORTFOLIO' : 'PORTAFOLIO'}`,
+      name: `${router.locale === 'en' ? 'PORTFOLIO' : 'DỰ ÁN'}`,
       icon: <WorkIcon />,
     },
     {
       link: '/#blog',
-      name: 'BLOG',
+      name: `${router.locale === 'en' ? 'BLOG' : 'BÀI VIẾT'}`,
       icon: <AssignmentIcon />,
     },
     {
       link: '/#contact',
-      name: `${router.locale === 'en' ? 'CONTACT' : 'CONTACTO'}`,
+      name: `${router.locale === 'en' ? 'CONTACT' : 'LIÊN HỆ'}`,
       icon: <MailIcon />,
     },
   ];

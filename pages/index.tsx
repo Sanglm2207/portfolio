@@ -43,7 +43,7 @@ export default function Index({
           name="keywords"
         />
         <meta content="English" name="language" />
-        <meta content="Kelvin Sanchez" name="author" />
+        <meta content="Lai Minh Sang" name="author" />
         <link href="/favicon.ico" rel="icon" />
 
         {/* Open Graph */}

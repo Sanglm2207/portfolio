@@ -22,11 +22,11 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
           flexDirection: 'column',
           justifyContent: 'center',
           backgroundImage: {
-            lg: `url('/hero-graphic.svg')`,
+            lg: `url('/hero-graphic2.svg')`,
           },
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'right -2rem bottom',
-          backgroundSize: '60%'
+          backgroundPosition: 'right -1rem bottom',
+          backgroundSize: '50%'
         }}
       >
         <Box mb={7}>

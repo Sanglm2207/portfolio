@@ -1,8 +1,8 @@
 const blogs = {
   featuredPost: {
-    title: 'Aprende Next.js desde Cero',
-    category: 'NEXTJS',
-    link: 'https://www.freecodecamp.org/espanol/news/aprende-next-js-desde-cero/',
+    title: 'Quản Lý Nhiều Phiên Bản Java Trên Cùng Máy: Chuyện Khó Mà Dễ!',
+    category: 'Java',
+    link: 'https://www.linkedin.com/pulse/qu%E1%BA%A3n-l%C3%BD-nhi%E1%BB%81u-phi%C3%AAn-b%E1%BA%A3n-java-tr%C3%AAn-c%C3%B9ng-m%C3%A1y-chuy%E1%BB%87n-kh%C3%B3-minh-s%C3%A1ng-l%E1%BA%A1i-buo7e/',
     mediaSrc:
       'https://www.freecodecamp.org/espanol/news/content/images/2021/01/next-js-logo1.png',
     description: `Next.js es un framework de JavaScript que nos permite crear fácilmente sitios web de React listos para salir a producción.

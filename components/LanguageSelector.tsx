@@ -8,7 +8,7 @@ import {
 
 const languages = [
   { code: 'en', text: 'English' },
-  { code: 'es', text: 'Español' },
+  { code: 'vi', text: 'Tiếng việt' },
 ];
 
 export default function LanguageSelector() {
@@ -41,7 +41,7 @@ export default function LanguageSelector() {
         variant="outlined"
         onClick={handleButtonClick}
       >
-        {locale === 'en' ? 'ENGLISH' : 'ESPAÑOL'}
+        {locale === 'en' ? 'ENGLISH' : 'Tiếng việt'}
       </Button>
 
       <Menu

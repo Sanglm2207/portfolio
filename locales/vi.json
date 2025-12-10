@@ -1,0 +1,159 @@
+{
+    "defaultSeo": {
+        "title": "Lại Minh Sáng | Lập trình viên phần mềm",
+        "description": "Lại Minh Sáng là một lập trình viên phần mềm, có kinh nghiệm trong việc tạo ra các trang web và ứng dụng web đẹp mắt và đầy đủ chức năng.",
+        "url": "https://www.yoonique99.dev/",
+        "previewImage": "https://user-images.githubusercontent.com/4708484/93688063-050a8980-fa91-11ea-89ca-3530a9038393.png"
+    },
+    "heroData": {
+        "greetings": "XIN CHÀO, ",
+        "introduction": "Tôi là Lại Minh Sáng",
+        "role": "Lập trình viên phần mềm",
+        "paragraph": "Đam mê lập trình và hiện thực hóa ý tưởng của khách hàng.",
+        "button1": "Xem dự án của tôi",
+        "button2": "Liên hệ với tôi"
+    },
+    "aboutData": {
+        "aboutTitle": "Về tôi",
+        "aboutItems": [
+            "Lập trình viên phần mềm đang làm việc tại Thủ đô Hà Nội, Việt Nam.",
+            "Đam mê thiết kế và xây dựng các trang web và ứng dụng đẹp mắt, lấy người dùng làm trung tâm, chú trọng vào mã nguồn sạch và dễ bảo trì.",
+            "Một thành viên nhiệt huyết trong nhóm, coi trọng giao tiếp rõ ràng, đón nhận phản hồi và luôn ham học hỏi, phát triển.",
+            "Ngoài công việc, tôi thích chơi cầu lông, đọc sách và chơi trò chơi điện tử."
+        ],
+        "resumeTitle": "Sơ yếu lý lịch",
+        "resumeParagraph": "Bạn có thể xem sơ yếu lý lịch của tôi ở liên kết bên dưới.",
+        "resumeButton": "Sơ yếu lý lịch",
+        "resumeLink": "/resume/resume-en.pdf",
+        "skillsTitle": "Kỹ năng"
+    },
+    "portfolioData": {
+        "portfolioTitle": "Dự án tiêu biểu",
+        "projects": [
+            {
+                "name": "Taskcover",
+                "projectUrl": "https://www.taskcover.com/",
+                "repoUrl": "https://github.com/taskcover-team",
+                "imgPath": "projectMedia/taskcover.png",
+                "imgAlt": "Giao diện nền tảng Taskcover",
+                "summary": "Nền tảng quản lý doanh nghiệp tích hợp AI, được thiết kế để tối ưu hóa quy trình làm việc và tăng năng suất.",
+                "keyFeatures": [
+                    "Bảng điều khiển thân thiện",
+                    "Cộng tác thời gian thực",
+                    "Kiến trúc Microservice",
+                    "Hỗ trợ 1000+ người dùng đồng thời",
+                    "Thời gian uptime đạt 99.9%",
+                    "Tùy chỉnh thương hiệu",
+                    "Đăng ký trả phí"
+                ],
+                "technologies": [
+                    "NodeJs",
+                    "NextJS",
+                    "Firebase",
+                    "Material-UI",
+                    "TypeScript",
+                    "Flutter",
+                    "ElectronJS",
+                    "Paypal"
+                ]
+            },
+            {
+                "name": "FUNiX LMS",
+                "projectUrl": "https://courses.funix.edu.vn/",
+                "repoUrl": "https://github.com/funix-lms/issueless",
+                "imgPath": "projectMedia/funix-lms.png",
+                "imgAlt": "Giao diện FUNiX LMS",
+                "summary": "Hệ thống quản lý học tập nội bộ phục vụ hàng nghìn học viên với các tính năng tương tác với mentor.",
+                "keyFeatures": [
+                    "Dịch vụ đăng nhập OAuth",
+                    "Quản lý chứng chỉ hoàn thành khóa học",
+                    "Hệ thống đặt lịch mentor",
+                    "Hệ thống hỏi đáp mentor",
+                    "Theo dõi chấm bài tập",
+                    "Tối ưu hóa thủ tục PL/SQL",
+                    "Tăng tốc độ phản hồi 25%"
+                ],
+                "technologies": [
+                    "Python",
+                    "Odoo",
+                    "PostgreSQL",
+                    "MongoDB",
+                    "Material-UI",
+                    "ReactJS",
+                    "Docker"
+                ]
+            },
+            {
+                "name": "FoodHub App",
+                "projectUrl": "#",
+                "repoUrl": "#",
+                "imgPath": "projectMedia/foodhub-app.png",
+                "imgAlt": "Giao diện ứng dụng giao đồ ăn FoodHub",
+                "summary": "Ứng dụng đặt và giao đồ ăn trực tuyến toàn diện, tối ưu hóa trải nghiệm người dùng từ khâu đăng ký, chọn món đến theo dõi đơn hàng.",
+                "keyFeatures": [
+                    "Xác thực bảo mật (OTP, Social Login)",
+                    "Tìm kiếm, lọc danh mục & món yêu thích",
+                    "Quản lý giỏ hàng & Quy trình thanh toán",
+                    "Hệ thống đánh giá & Lịch sử đơn hàng"
+                ],
+                "technologies": [
+                    "Tailwind",
+                    "TypeScript",
+                    "React",
+                    "React Native",
+                    "Expo",
+                    "React Navigation",
+                    "Redux Toolkit",
+                    "Java",
+                    "Spring Boot",
+                    "Mysql"
+                ]
+            },
+            {
+                "name": "NovaLink",
+                "projectUrl": "#",
+                "repoUrl": "#",
+                "imgPath": "projectMedia/novalink.png",
+                "imgAlt": "NovaLink CRM Dashboard Preview",
+                "summary": "Enterprise CRM system designed to manage customer relationships, track sales pipelines, and automate reporting tasks.",
+                "keyFeatures": [
+                    "Reduced manual reporting by 60% via RabbitMQ",
+                    "Cut deployment time from 1h to 15m (CI/CD)",
+                    "Handles 500+ concurrent transactions",
+                    "Real-time sales performance dashboards"
+                ],
+                "technologies": [
+                    "Java",
+                    "Spring Boot",
+                    "MongoDB",
+                    "RabbitMQ",
+                    "Docker",
+                    "AWS"
+                ]
+            }
+        ]
+    },
+    "blogData": {
+        "featuredArticle": "Bài viết nổi bật",
+        "mostRecent": "Mới nhất",
+        "button": "Xem thêm bài viết"
+    },
+    "contactData": {
+        "title": "Liên hệ",
+        "p1": "Nếu bạn quan tâm đến việc thuê tôi cho dự án của mình, vui lòng sử dụng biểu mẫu bên dưới để liên hệ. Bạn muốn biết cách tôi làm việc và những gì tôi có thể cung cấp? Hãy xem ",
+        "p2": "dự án",
+        "p3": " và ",
+        "p4": "sơ yếu lý lịch",
+        "resumeLink": "/resume/resume-en.pdf",
+        "subtitle": "Bạn cũng có thể tìm thấy tôi trên các kênh sau",
+        "formTitle": "Giữ liên lạc",
+        "firstNameLabel": "Tên",
+        "lastNameLabel": "Họ",
+        "emailLabel": "Email",
+        "messageLabel": "Tin nhắn",
+        "placeholder": "Đừng ngại chia sẻ bất kỳ chi tiết nào.",
+        "submitButton": "Gửi",
+        "requiredErrorMessage": "Bắt buộc",
+        "invalidEmailErrorMessage": "Định dạng email không hợp lệ"
+    }
+}

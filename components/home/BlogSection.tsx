@@ -35,13 +35,7 @@ export default function Blog({ blogData: t }: { blogData: BlogData }) {
         </Typography>
 
         <ShortCenteredDivider sx={{ mb: 4 }} />
-
-        <Typography gutterBottom align="center" component="h4" variant="h4">
-          Tính năng đang xây dựng
-
-        </Typography>
-
-        {/* <Grid container spacing={4}>
+        <Grid container spacing={4}>
           <Grid item md={5} xs={12}>
             <Typography gutterBottom align="left" component="h2" variant="h4">
               {t.featuredArticle}
@@ -89,7 +83,7 @@ export default function Blog({ blogData: t }: { blogData: BlogData }) {
 
             <Button
               fullWidth
-              href="https://www.freecodecamp.org/espanol/news/author/kelvin/"
+              href="#"
               rel="noopener"
               size="large"
               sx={{ display: { xs: 'none', md: 'flex' } }}
@@ -127,7 +121,7 @@ export default function Blog({ blogData: t }: { blogData: BlogData }) {
               {t.button}
             </Button>
           </Grid>
-        </Grid> */}
+        </Grid>
       </Container>
     </Box>
   );

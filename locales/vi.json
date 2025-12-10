@@ -115,20 +115,20 @@
                 "repoUrl": "#",
                 "imgPath": "projectMedia/novalink.png",
                 "imgAlt": "NovaLink CRM Dashboard Preview",
-                "summary": "Enterprise CRM system designed to manage customer relationships, track sales pipelines, and automate reporting tasks.",
+                "summary": "Hệ thống CRM doanh nghiệp giúp quản lý quan hệ khách hàng, theo dõi quy trình bán hàng và tự động hóa báo cáo.",
                 "keyFeatures": [
-                    "Reduced manual reporting by 60% via RabbitMQ",
-                    "Cut deployment time from 1h to 15m (CI/CD)",
-                    "Handles 500+ concurrent transactions",
-                    "Real-time sales performance dashboards"
+                "Giảm 60% tác vụ thủ công nhờ RabbitMQ",
+                "Rút ngắn thời gian deploy còn 15 phút (CI/CD)",
+                "Xử lý ổn định 500+ giao dịch đồng thời",
+                "Bảng điều khiển hiệu suất thời gian thực"
                 ],
                 "technologies": [
-                    "Java",
-                    "Spring Boot",
-                    "MongoDB",
-                    "RabbitMQ",
-                    "Docker",
-                    "AWS"
+                "Java",
+                "Spring Boot",
+                "MongoDB",
+                "RabbitMQ",
+                "Docker",
+                "AWS"
                 ]
             }
         ]

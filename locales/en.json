@@ -16,8 +16,12 @@
   "aboutData": {
     "aboutTitle": "About me",
     "aboutItems": [
-      "Software Developer based in Hanoi Capital, Vietnam.",
+      "Software Developer currently working in Hanoi Capital, Vietnam.",
       "Passionate about designing and building beautiful, user-centric websites and applications, with a focus on clean, maintainable code.",
+      "I dedicate significant attention to Backend systems (Java, Spring Boot) and find joy in optimizing things to run smoothly behind the scenes.",
+      "With a solution-oriented mindset, I always strive to understand the real-world problem to create products that are not just functional but truly useful.",
+      "Beyond coding, I enjoy exploring Cloud and DevOps (AWS, Docker) to gain a broader perspective on delivering products to users.",
+      "I am not afraid of new technologies; every project is a valuable opportunity for me to gain experience and refine my skills.",
       "Enthusiastic team player who values clear communication, embraces feedback, and is always eager to learn and grow.",
       "Outside of work, I enjoy playing badminton, reading, and indulging in video games."
     ],

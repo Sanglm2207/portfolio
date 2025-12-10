@@ -1,4 +1,5 @@
-import { FaJava } from 'react-icons/fa'; // Icon Java chuẩn (cốc cà phê)
+import React, { ReactNode } from 'react';
+import { FaJava } from 'react-icons/fa';
 import {
   SiHtml5,
   SiCss3,
@@ -32,140 +33,149 @@ import {
   SiJira,
 } from 'react-icons/si';
 
-const skillLogos = [
+interface Skill {
+  icon: ReactNode;
+  label: string;
+}
+
+const renderIcon = (Icon: any, color: string, title: string) => {
+  return React.createElement(Icon, { color, title });
+};
+
+const skillLogos: Skill[] = [
   // --- Languages ---
   {
-    icon: <FaJava color="#ED8B00" title="Java" />,
+    icon: renderIcon(FaJava, "#ED8B00", "Java"),
     label: 'Java',
   },
   {
-    icon: <SiJavascript color="#F7DF1E" title="JavaScript" />,
+    icon: renderIcon(SiJavascript, "#F7DF1E", "JavaScript"),
     label: 'JavaScript',
   },
   {
-    icon: <SiTypescript color="#3178C6" title="TypeScript" />,
+    icon: renderIcon(SiTypescript, "#3178C6", "TypeScript"),
     label: 'TypeScript',
   },
   {
-    icon: <SiHtml5 color="#E34F26" title="Html5" />,
+    icon: renderIcon(SiHtml5, "#E34F26", "Html5"),
     label: 'Html5',
   },
   {
-    icon: <SiCss3 color="#1572B6" title="CSS3" />,
+    icon: renderIcon(SiCss3, "#1572B6", "CSS3"),
     label: 'CSS3',
   },
 
   // --- Backend & Frameworks ---
   {
-    icon: <SiSpringboot color="#6DB33F" title="Spring Boot" />,
+    icon: renderIcon(SiSpringboot, "#6DB33F", "Spring Boot"),
     label: 'Spring Boot',
   },
   {
-    icon: <SiHibernate color="#59666C" title="Hibernate" />,
+    icon: renderIcon(SiHibernate, "#59666C", "Hibernate"),
     label: 'Hibernate',
   },
   {
-    icon: <SiNodedotjs color="#339933" title="Node.js" />,
+    icon: renderIcon(SiNodedotjs, "#339933", "Node.js"),
     label: 'Node.js',
   },
   {
-    icon: <SiNextdotjs color="#000000" title="NextJS" />, // Hoặc #FFFFFF nếu nền tối
+    icon: renderIcon(SiNextdotjs, "#000000", "NextJS"), 
     label: 'NextJS',
   },
   {
-    icon: <SiReact color="#61DAFB" title="React" />,
+    icon: renderIcon(SiReact, "#61DAFB", "React"),
     label: 'React',
   },
   {
-    icon: <SiRedux color="#764ABC" title="Redux" />,
+    icon: renderIcon(SiRedux, "#764ABC", "Redux"),
     label: 'Redux',
   },
   {
-    icon: <SiTailwindcss color="#06B6D4" title="Tailwind CSS" />,
+    icon: renderIcon(SiTailwindcss, "#06B6D4", "Tailwind CSS"),
     label: 'Tailwind CSS',
   },
   {
-    icon: <SiMui color="#007FFF" title="Material UI" />,
+    icon: renderIcon(SiMui, "#007FFF", "Material UI"),
     label: 'Material UI',
   },
   {
-    icon: <SiJest color="#C21325" title="Jest" />,
+    icon: renderIcon(SiJest, "#C21325", "Jest"),
     label: 'Jest',
   },
 
   // --- Databases ---
   {
-    icon: <SiOracle color="#F80000" title="Oracle" />,
+    icon: renderIcon(SiOracle, "#F80000", "Oracle"),
     label: 'Oracle',
   },
   {
-    icon: <SiMysql color="#4479A1" title="MySQL" />,
+    icon: renderIcon(SiMysql, "#4479A1", "MySQL"),
     label: 'MySQL',
   },
   {
-    icon: <SiPostgresql color="#4169E1" title="PostgreSQL" />,
+    icon: renderIcon(SiPostgresql, "#4169E1", "PostgreSQL"),
     label: 'PostgreSQL',
   },
   {
-    icon: <SiMongodb color="#47A248" title="MongoDB" />,
+    icon: renderIcon(SiMongodb, "#47A248", "MongoDB"),
     label: 'MongoDB',
   },
   {
-    icon: <SiRedis color="#DC382D" title="Redis" />,
+    icon: renderIcon(SiRedis, "#DC382D", "Redis"),
     label: 'Redis',
   },
   {
-    icon: <SiFirebase color="#FFCA28" title="Firebase" />,
+    icon: renderIcon(SiFirebase, "#FFCA28", "Firebase"),
     label: 'Firebase',
   },
 
   // --- Messaging ---
   {
-    icon: <SiApachekafka color="#231F20" title="Kafka" />,
+    icon: renderIcon(SiApachekafka, "#231F20", "Kafka"),
     label: 'Kafka',
   },
   {
-    icon: <SiRabbitmq color="#FF6600" title="RabbitMQ" />,
+    icon: renderIcon(SiRabbitmq, "#FF6600", "RabbitMQ"),
     label: 'RabbitMQ',
   },
 
   // --- DevOps & Cloud ---
   {
-    icon: <SiAmazonwebservices color="#FF9900" title="AWS" />,
+    icon: renderIcon(SiAmazonwebservices, "#FF9900", "AWS"),
     label: 'AWS',
   },
   {
-    icon: <SiDocker color="#2496ED" title="Docker" />,
+    icon: renderIcon(SiDocker, "#2496ED", "Docker"),
     label: 'Docker',
   },
   {
-    icon: <SiJenkins color="#D24939" title="Jenkins" />,
+    icon: renderIcon(SiJenkins, "#D24939", "Jenkins"),
     label: 'Jenkins',
   },
   {
-    icon: <SiNginx color="#009639" title="Nginx" />,
+    icon: renderIcon(SiNginx, "#009639", "Nginx"),
     label: 'Nginx',
   },
   {
-    icon: <SiGooglecloud color="#4285F4" title="Google Cloud" />,
+    icon: renderIcon(SiGooglecloud, "#4285F4", "Google Cloud"),
     label: 'Google Cloud',
   },
   {
-    icon: <SiTerraform color="#7B42BC" title="Terraform" />,
+    icon: renderIcon(SiTerraform, "#7B42BC", "Terraform"),
     label: 'Terraform',
   },
 
   // --- Tools ---
   {
-    icon: <SiGit color="#F05032" title="Git" />,
+    icon: renderIcon(SiGit, "#F05032", "Git"),
     label: 'Git',
   },
   {
-    icon: <SiSwagger color="#85EA2D" title="Swagger" />,
+    icon: renderIcon(SiSwagger, "#85EA2D", "Swagger"),
     label: 'Swagger',
   },
   {
-    icon: <SiJira color="#0052CC" title="Jira" />,
+    icon: renderIcon(SiJira, "#0052CC", "Jira"),
     label: 'Jira',
   },
 ];

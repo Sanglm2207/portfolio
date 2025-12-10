@@ -23,7 +23,7 @@
     "@sendgrid/mail": "^7.4.6",
     "clsx": "^1.2.1",
     "formik": "^2.2.9",
-    "next": "^13.0.2",
+    "next": "^16.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",

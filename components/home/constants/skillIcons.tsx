@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react';
-import { FaJava } from 'react-icons/fa';
+import { FaJava, FaAws, FaDatabase } from 'react-icons/fa';
 import {
   SiHtml5,
-  SiCss3,
+  SiCss,
   SiJavascript,
   SiTypescript,
   SiGit,
@@ -15,7 +15,7 @@ import {
   SiPostgresql,
   SiMongodb,
   SiMysql,
-  SiOracle,
+
   SiRedis,
   SiFirebase,
   SiApachekafka,
@@ -23,7 +23,7 @@ import {
   SiDocker,
   SiJenkins,
   SiNginx,
-  SiAmazonwebservices,
+
   SiGooglecloud,
   SiTerraform,
   SiJest,
@@ -61,7 +61,7 @@ const skillLogos: Skill[] = [
     label: 'Html5',
   },
   {
-    icon: renderIcon(SiCss3, "#1572B6", "CSS3"),
+    icon: renderIcon(SiCss, "#1572B6", "CSS3"),
     label: 'CSS3',
   },
 
@@ -105,7 +105,7 @@ const skillLogos: Skill[] = [
 
   // --- Databases ---
   {
-    icon: renderIcon(SiOracle, "#F80000", "Oracle"),
+    icon: renderIcon(FaDatabase, "#F80000", "Oracle"),
     label: 'Oracle',
   },
   {
@@ -141,7 +141,7 @@ const skillLogos: Skill[] = [
 
   // --- DevOps & Cloud ---
   {
-    icon: renderIcon(SiAmazonwebservices, "#FF9900", "AWS"),
+    icon: renderIcon(FaAws, "#FF9900", "AWS"),
     label: 'AWS',
   },
   {

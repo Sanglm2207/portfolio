@@ -84,6 +84,19 @@ export default function About({ aboutData: t }: { aboutData: AboutData }) {
             >
               {t.resumeButton}
             </Button>
+
+            <Button
+              color="secondary"
+              endIcon={<Description />}
+              href="/resume/resume-2.pdf"
+              rel="noopener"
+              size="large"
+              sx={{ m: 2 }}
+              target="_blank"
+              variant="outlined"
+            >
+              {t.resumeButton} 2
+            </Button>
           </Grid>
 
           <Grid item md={4} xs={12}>

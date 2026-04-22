@@ -79,7 +79,7 @@ const skillLogos: Skill[] = [
     label: 'Node.js',
   },
   {
-    icon: renderIcon(SiNextdotjs, "#000000", "NextJS"), 
+    icon: renderIcon(SiNextdotjs, "#000000", "NextJS"),
     label: 'NextJS',
   },
   {

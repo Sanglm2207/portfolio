@@ -26,9 +26,17 @@
       "Outside of work, I enjoy playing badminton, reading, and indulging in video games."
     ],
     "resumeTitle": "Resumé",
-    "resumeParagraph": "You can check my resumé in the link below.",
-    "resumeButton": "Resumé",
-    "resumeLink": "/resume/resume-en.pdf",
+    "resumeParagraph": "You can check my resumé in the links below.",
+    "resumeButtons": [
+      {
+        "label": "Resumé 1",
+        "link": "/resume/resume-1-en.pdf"
+      },
+      {
+        "label": "Resumé 2",
+        "link": "/resume/resume-2-en.pdf"
+      }
+    ],
     "skillsTitle": "Skills"
   },
   "portfolioData": {

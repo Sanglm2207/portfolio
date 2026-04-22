@@ -21,17 +21,23 @@ const CustomDivider = styled(Divider)(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
 }));
 
+interface ResumeButton {
+  label: string;
+  link: string;
+}
+
 interface AboutData {
   aboutTitle: string;
   aboutItems: string[];
   resumeTitle: string;
   resumeParagraph: string;
-  resumeButton: string;
-  resumeLink: string;
+  resumeButtons: ResumeButton[];
   skillsTitle: string;
 }
 
 export default function About({ aboutData: t }: { aboutData: AboutData }) {
+  const buttonColors: Array<'primary' | 'secondary'> = ['primary', 'secondary'];
+
   return (
     <Box
       component="section"
@@ -72,31 +78,21 @@ export default function About({ aboutData: t }: { aboutData: AboutData }) {
               {t.resumeParagraph}
             </Typography>
 
-            <Button
-              color="primary"
-              endIcon={<Description />}
-              href={t.resumeLink}
-              rel="noopener"
-              size="large"
-              sx={{ m: 2 }}
-              target="_blank"
-              variant="outlined"
-            >
-              {t.resumeButton}
-            </Button>
-
-            <Button
-              color="secondary"
-              endIcon={<Description />}
-              href="/resume/resume-2.pdf"
-              rel="noopener"
-              size="large"
-              sx={{ m: 2 }}
-              target="_blank"
-              variant="outlined"
-            >
-              {t.resumeButton} 2
-            </Button>
+            {t.resumeButtons.map((btn, index) => (
+              <Button
+                key={btn.label}
+                color={buttonColors[index % buttonColors.length]}
+                endIcon={<Description />}
+                href={btn.link}
+                rel="noopener"
+                size="large"
+                sx={{ m: 2 }}
+                target="_blank"
+                variant="outlined"
+              >
+                {btn.label}
+              </Button>
+            ))}
           </Grid>
 
           <Grid item md={4} xs={12}>

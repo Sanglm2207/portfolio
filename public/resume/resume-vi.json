@@ -1,25 +1,25 @@
 {
   "selectedTemplate": 3,
   "headings": {
-    "skills": "Habilidades",
-    "projects": "Proyectos",
-    "work": "Experiencia Laboral"
+    "skills": "Kỹ Năng",
+    "projects": "Dự Án",
+    "work": "Kinh Nghiệm Làm Việc"
   },
   "basics": {
-    "email": "kelvinsanchez15@gmail.com",
+    "email": "sanglm2207@gmail.com",
     "phone": "",
-    "name": "Kelvin Sánchez",
+    "name": "Lại Minh Sáng",
     "location": {
-      "address": "Spring, Texas"
+      "address": "Hanoi,Vietnam"
     },
-    "website": "www.kelvinsanchez15.com"
+    "website": "www.yoobnique99.vercel.app"
   },
   "work": [
     {
-      "company": "Xepelin",
-      "position": "Desarrollador Front-end",
-      "location": "Santiago, Chile",
-      "startDate": "Oct 2021",
+      "company": "Taskcover",
+      "position": "Software Developer",
+      "location": "Hanoi,Vietnam",
+      "startDate": "Nov 2022",
       "endDate": "Presente",
       "highlights": [
         "Construí un nuevo flujo de onboarding, mejorando un 33% los usuarios autoenrolados",
@@ -68,23 +68,42 @@
       "name": "Frontend"
     },
     {
-      "keywords": ["Node.js", "Express.js", "Cloud Functions"],
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "Cloud Functions"
+      ],
       "name": "Backend"
     },
     {
-      "keywords": ["PostgreSQL", "MongoDB", "Firebase"],
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "Firebase"
+      ],
       "name": "Bases de datos"
     },
     {
-      "keywords": ["Tailwind CSS", "Material UI", "Bootstrap"],
+      "keywords": [
+        "Tailwind CSS",
+        "Material UI",
+        "Bootstrap"
+      ],
       "name": "Frameworks de CSS"
     },
     {
-      "keywords": ["Jest", "Cypress"],
+      "keywords": [
+        "Jest",
+        "Cypress"
+      ],
       "name": "Testing"
     },
     {
-      "keywords": ["Git", "Figma", "Postman"],
+      "keywords": [
+        "Git",
+        "Figma",
+        "Postman"
+      ],
       "name": "Otras"
     }
   ],
@@ -92,17 +111,34 @@
     {
       "description": "Rastreador de problemas (Issue Tracker) inspirado en Github Issues.",
       "url": "https://issueless.vercel.app/",
-      "keywords": ["React", "Next.js", "PostgreSQL", "Prisma", "Material UI"],
+      "keywords": [
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
+        "Material UI"
+      ],
       "name": "Issueless"
     },
     {
-      "keywords": ["Tailwind CSS", "TypeScript", "React", "Next.js"],
+      "keywords": [
+        "Tailwind CSS",
+        "TypeScript",
+        "React",
+        "Next.js"
+      ],
       "name": "Easybank",
       "description": "Página de producto SAAS completamente responsiva diseñada con Tailwind CSS.",
       "url": "https://easybank-web.vercel.app/"
     },
     {
-      "keywords": ["React", "Next.js", "MongoDB", "Material UI", "SWR"],
+      "keywords": [
+        "React",
+        "Next.js",
+        "MongoDB",
+        "Material UI",
+        "SWR"
+      ],
       "name": "A-Note",
       "description": "Una aplicación JAMStack que permite tomar notas de forma simple, rápida e intuitiva.",
       "url": "https://a-note.vercel.app/"

@@ -27,8 +27,16 @@
         ],
         "resumeTitle": "Hồ sơ năng lực",
         "resumeParagraph": "Bạn có thể xem chi tiết CV của tôi ở liên kết bên dưới.",
-        "resumeButton": "Xem CV",
-        "resumeLink": "/resume/resume-en.pdf",
+        "resumeButtons": [
+            {
+                "label": "Resume 1",
+                "link": "/resume/resume-1-en.pdf"
+            },
+            {
+                "label": "Resume 2",
+                "link": "/resume/resume-2-en.pdf"
+            }
+        ],
         "skillsTitle": "Kỹ năng"
     },
     "portfolioData": {
@@ -121,18 +129,18 @@
                 "imgAlt": "NovaLink CRM Dashboard Preview",
                 "summary": "Hệ thống CRM doanh nghiệp giúp quản lý quan hệ khách hàng, theo dõi quy trình bán hàng và tự động hóa báo cáo.",
                 "keyFeatures": [
-                "Giảm 60% tác vụ thủ công nhờ RabbitMQ",
-                "Rút ngắn thời gian deploy còn 15 phút (CI/CD)",
-                "Xử lý ổn định 500+ giao dịch đồng thời",
-                "Bảng điều khiển hiệu suất thời gian thực"
+                    "Giảm 60% tác vụ thủ công nhờ RabbitMQ",
+                    "Rút ngắn thời gian deploy còn 15 phút (CI/CD)",
+                    "Xử lý ổn định 500+ giao dịch đồng thời",
+                    "Bảng điều khiển hiệu suất thời gian thực"
                 ],
                 "technologies": [
-                "Java",
-                "Spring Boot",
-                "MongoDB",
-                "RabbitMQ",
-                "Docker",
-                "AWS"
+                    "Java",
+                    "Spring Boot",
+                    "MongoDB",
+                    "RabbitMQ",
+                    "Docker",
+                    "AWS"
                 ]
             }
         ]

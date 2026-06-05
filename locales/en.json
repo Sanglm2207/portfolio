@@ -29,11 +29,11 @@
     "resumeParagraph": "You can check my resumé in the links below.",
     "resumeButtons": [
       {
-        "label": "Resumé 1",
+        "label": "Software Developer Resume",
         "link": "/resume/resume-1-en.pdf"
       },
       {
-        "label": "Resumé 2",
+        "label": "Data Engineer Resume",
         "link": "/resume/resume-2-en.pdf"
       }
     ],

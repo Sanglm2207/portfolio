@@ -29,11 +29,11 @@
         "resumeParagraph": "Bạn có thể xem chi tiết CV của tôi ở liên kết bên dưới.",
         "resumeButtons": [
             {
-                "label": "Resume 1",
-                "link": "/resume/resume-1-en.pdf"
+            "label": "CV Software Developer",
+            "link": "/resume/resume-1-en.pdf"
             },
             {
-                "label": "Resume 2",
+                "label": "CV Data Engineer",
                 "link": "/resume/resume-2-en.pdf"
             }
         ],
